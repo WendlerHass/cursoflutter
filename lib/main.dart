@@ -30,8 +30,7 @@ class _PerguntaAppState extends State<PerguntaApp> {
       }
     ];
 
-    List<String> respostas =
-        perguntas[_perguntaSelecionada].cast()['respostas'];
+    List<String> respostas = perguntas[_perguntaSelecionada].cast()['respostas'];
 
     return MaterialApp(
       home: Scaffold(
